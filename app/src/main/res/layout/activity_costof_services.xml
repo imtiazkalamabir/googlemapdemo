@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_costof_services"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.debzi.googlemapdemo.CostofServicesActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff">
+
+            <LinearLayout
+                android:id="@+id/l1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/nap"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:text="Not applicable"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:background="#fafafa"/>
+
+                <TextView
+                    android:id="@+id/header1"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:text="Diagnostics"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:background="#696969"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="BP measurement"
+                        android:textSize="15dp"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="5dp"
+                        android:background="#f1f1f1"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="BDT"
+                        android:textColor="#b2b2b2"
+                        android:textSize="15dp"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="5dp"
+                        android:background="#fafafa"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Blood grouping"
+                        android:textSize="15dp"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="5dp"
+                        android:background="#f1f1f1"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="BDT"
+                        android:textColor="#b2b2b2"
+                        android:textSize="15dp"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="5dp"
+                        android:background="#fafafa"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Random blood sugar"
+                        android:textSize="15dp"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="5dp"
+                        android:background="#f1f1f1"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="BDT"
+                        android:textColor="#b2b2b2"
+                        android:textSize="15dp"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="5dp"
+                        android:background="#fafafa"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Blood routine examination"
+                        android:textSize="15dp"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="5dp"
+                        android:background="#f1f1f1"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="BDT"
+                        android:textColor="#b2b2b2"
+                        android:textSize="15dp"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="5dp"
+                        android:background="#fafafa"/>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Urine routine examination"
+                        android:textSize="15dp"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="5dp"
+                        android:background="#f1f1f1"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="BDT"
+                        android:textColor="#b2b2b2"
+                        android:textSize="15dp"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="5dp"
+                        android:background="#fafafa"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="USG (pregnancy profile"
+                        android:textSize="15dp"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="5dp"
+                        android:background="#f1f1f1"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="BDT"
+                        android:textColor="#b2b2b2"
+                        android:textSize="15dp"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="5dp"
+                        android:background="#fafafa"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="USA (whole abdomen)"
+                        android:textSize="15dp"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="5dp"
+                        android:background="#f1f1f1"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="BDT"
+                        android:textColor="#b2b2b2"
+                        android:textSize="15dp"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="5dp"
+                        android:background="#fafafa"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Chest X-ray P/A view"
+                        android:textSize="15dp"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="5dp"
+                        android:background="#f1f1f1"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="BDT"
+                        android:textColor="#b2b2b2"
+                        android:textSize="15dp"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="5dp"
+                        android:background="#fafafa"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="5dp">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="ECG"
+                        android:textSize="15dp"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="5dp"
+                        android:background="#f1f1f1"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="BDT"
+                        android:textColor="#b2b2b2"
+                        android:textSize="15dp"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="5dp"
+                        android:background="#fafafa"/>
+
+
+                </LinearLayout>
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/l2"
+                android:layout_below="@+id/l1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/header2"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:text="Treatment"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:background="#696969"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="C-section: Package"
+                        android:textSize="15dp"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="5dp"
+                        android:background="#f1f1f1"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="BDT"
+                        android:textColor="#b2b2b2"
+                        android:textSize="15dp"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="5dp"
+                        android:background="#fafafa"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="C-section: Non-package"
+                        android:textSize="15dp"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="5dp"
+                        android:background="#f1f1f1"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="BDT"
+                        android:textColor="#b2b2b2"
+                        android:textSize="15dp"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="5dp"
+                        android:background="#fafafa"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="NVD: Package"
+                        android:textSize="15dp"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="5dp"
+                        android:background="#f1f1f1"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="BDT"
+                        android:textColor="#b2b2b2"
+                        android:textSize="15dp"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="5dp"
+                        android:background="#fafafa"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="NVD: Non-package"
+                        android:textSize="15dp"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="5dp"
+                        android:background="#f1f1f1"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="BDT"
+                        android:textColor="#b2b2b2"
+                        android:textSize="15dp"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="5dp"
+                        android:background="#fafafa"/>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="5dp">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Blood transfusion"
+                        android:textSize="15dp"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="5dp"
+                        android:background="#f1f1f1"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="BDT"
+                        android:textColor="#b2b2b2"
+                        android:textSize="15dp"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="5dp"
+                        android:background="#fafafa"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/l3"
+                android:layout_below="@+id/l2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/header3"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:text="Patient Registration fee (1 time)"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:background="#696969"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Reg. fee: Shift-1"
+                        android:textSize="15dp"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="5dp"
+                        android:background="#f1f1f1"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="BDT"
+                        android:textColor="#b2b2b2"
+                        android:textSize="15dp"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="5dp"
+                        android:background="#fafafa"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="5dp">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Reg. fee: Shift-2"
+                        android:textSize="15dp"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="5dp"
+                        android:background="#f1f1f1"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="BDT"
+                        android:textColor="#b2b2b2"
+                        android:textSize="15dp"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="5dp"
+                        android:background="#fafafa"/>
+
+
+                </LinearLayout>
+
+
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/l4"
+                android:layout_below="@+id/l3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/header4"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:text="Consultation fee"
+                    android:textColor="#ffffff"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:background="#696969"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Consult. fee: Min"
+                        android:textSize="15dp"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="5dp"
+                        android:background="#f1f1f1"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="BDT"
+                        android:textColor="#b2b2b2"
+                        android:textSize="15dp"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="5dp"
+                        android:background="#fafafa"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="5dp">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Consult. fee: Max"
+                        android:textSize="15dp"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="5dp"
+                        android:background="#f1f1f1"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="BDT"
+                        android:textColor="#b2b2b2"
+                        android:textSize="15dp"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="5dp"
+                        android:background="#fafafa"/>
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

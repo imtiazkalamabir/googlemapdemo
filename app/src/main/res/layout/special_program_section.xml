@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/special_programs"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:padding="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#ffffff">
+
+        <TextView
+            android:id="@+id/name_header"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Special Programs"
+            android:paddingLeft="5dp"
+            android:textColor="#ffffff"
+            android:gravity="left|center_vertical"
+            android:background="#696969"/>
+
+        <TextView
+            android:id="@+id/op_Spinner"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Not Applicatble"
+            android:layout_marginTop="5dp"
+            android:background="#b4b4b4"
+            android:gravity="center"
+            android:focusable="false">
+
+        </TextView>
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

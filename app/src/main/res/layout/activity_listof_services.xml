@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_listof_services"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context="com.debzi.googlemapdemo.ListofServicesActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/nap"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="Not applicable"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:background="#fafafa"/>
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/nap"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="Diagnostic"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:background="#f1f1f1"/>
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_below="@+id/tv1"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="Surgery"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:background="#f1f1f1"/>
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_below="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="Emergency &amp; Critical care"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:background="#f1f1f1"/>
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_below="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="Diabetes"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:background="#f1f1f1"/>
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_below="@+id/tv4"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="Arthritis"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:background="#f1f1f1"/>
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_below="@+id/tv5"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="Blood Transfusion"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:background="#f1f1f1"/>
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_below="@+id/tv6"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="Pharmacy/sell medicine"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:background="#f1f1f1"/>
+
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_below="@+id/tv7"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="Family Planning (FP) Services"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:background="#f1f1f1"/>
+
+            <TextView
+                android:id="@+id/tv9"
+                android:layout_below="@+id/tv8"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="Immunization"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:background="#f1f1f1"/>
+
+            <TextView
+                android:id="@+id/tv10"
+                android:layout_below="@+id/tv9"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="Laser and cosmetic services"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:background="#f1f1f1"/>
+
+            <TextView
+                android:id="@+id/tv11"
+                android:layout_below="@+id/tv10"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="Health Education"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:background="#f1f1f1"/>
+
+            <TextView
+                android:id="@+id/tv12"
+                android:layout_below="@+id/tv11"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="Eye Examination"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:background="#f1f1f1"/>
+
+            <TextView
+                android:id="@+id/tv13"
+                android:layout_below="@+id/tv12"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center"
+                android:text="Maternal Health"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                android:background="#f1f1f1"/>
+
+            <TextView
+                android:id="@+id/tv14"
+                android:layout_below="@+id/tv13"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="Blue Star Services"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="#f1f1f1"/>
+
+
+        </RelativeLayout>
+
+
+
+    </ScrollView>
+
+</RelativeLayout>

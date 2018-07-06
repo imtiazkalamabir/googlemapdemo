@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/typeof_services_section">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:weightSum="2"
+        android:padding="5dp"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+
+        <TextView
+            android:id="@+id/name_header"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Types of Services"
+            android:paddingLeft="5dp"
+            android:textColor="#ffffff"
+            android:gravity="left|center_vertical"
+            android:background="#696969"/>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:weightSum="3">
+
+
+            <TextView
+                android:id="@+id/outreach"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Outreach"
+                android:paddingLeft="5dp"
+                android:gravity="center"
+                android:background="#f1f1f1"/>
+
+            <TextView
+                android:id="@+id/indoor"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Indoor"
+                android:paddingLeft="5dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:background="#f1f1f1"/>
+
+            <TextView
+                android:id="@+id/outdoor"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Outdoor"
+                android:paddingLeft="5dp"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:background="#f1f1f1"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

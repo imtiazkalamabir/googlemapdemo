@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    tools:context="com.debzi.googlemapdemo.FacilityActivity">
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_width="50dp"
+        android:layout_centerInParent="true"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:theme="@style/AppTheme"
+        android:visibility="gone"
+        android:indeterminate="true"
+        android:indeterminateTintMode="src_atop"
+        android:indeterminateTint="@color/colorPrimary"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <RelativeLayout
+            android:id="@+id/parent_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/l1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include layout="@layout/name_section"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/l2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/l1"
+                android:layout_marginTop="5dp">
+
+                <include layout="@layout/address_section"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/l2"
+                android:layout_marginTop="5dp">
+
+                <include layout="@layout/facility_contact_section"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/l3"
+                android:layout_marginTop="5dp">
+
+                <include layout="@layout/managed_by_section"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/l4"
+                android:layout_marginTop="5dp">
+
+                <include layout="@layout/natureof_facility_section"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/l5"
+                android:layout_marginTop="5dp">
+
+                <include layout="@layout/typeof_facility_section"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/l6"
+                android:layout_marginTop="5dp">
+
+                <include layout="@layout/operational_status_section"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/l7"
+                android:layout_marginTop="5dp">
+
+                <include layout="@layout/special_program_section"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/l8"
+                android:layout_marginTop="5dp">
+
+                <include layout="@layout/typeof_services_section"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/l9"
+                android:layout_marginTop="5dp">
+
+                <include layout="@layout/numberof_beds_section"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/l10"
+                android:layout_marginTop="5dp">
+
+                <include layout="@layout/numberof_staff_section"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/l11"
+                android:layout_marginTop="5dp">
+
+                <include layout="@layout/facility_focus_section"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/l12"
+                android:layout_marginTop="5dp">
+
+                <include layout="@layout/service_pattern_section"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/l13"
+                android:layout_marginTop="5dp">
+
+                <include layout="@layout/daysof_service_section"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/l14"
+                android:layout_marginTop="5dp">
+
+                <include layout="@layout/hoursof_service_section"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/l15"
+                android:layout_marginTop="5dp">
+
+                <include layout="@layout/doctor_availability_section"/>
+
+            </LinearLayout>
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

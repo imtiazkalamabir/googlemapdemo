@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/daysof_service_section">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:weightSum="6"
+        android:padding="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Days of Service"
+            android:paddingLeft="5dp"
+            android:textColor="#ffffff"
+            android:gravity="left|center_vertical"
+            android:background="#696969"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/sun"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Sunday"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:paddingLeft="5dp"
+                android:background="#f1f1f1"
+                android:layout_weight="1"/>
+
+
+            <TextView
+                android:id="@+id/mon"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Monday"
+                android:textSize="12sp"
+                android:paddingLeft="5dp"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:background="#f1f1f1"
+                android:layout_weight="1"/>
+
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tue"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Tuesday"
+                android:gravity="center"
+                android:background="#f1f1f1"
+                android:paddingLeft="5dp"
+                android:textSize="12sp"
+                android:layout_weight="1"/>
+
+
+
+            <TextView
+                android:id="@+id/wed"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Wednesday"
+                android:textSize="12sp"
+                android:paddingLeft="5dp"
+                android:gravity="center"
+                android:background="#f1f1f1"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"/>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Thursday"
+                android:gravity="center"
+                android:background="#f1f1f1"
+                android:paddingLeft="5dp"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:id="@+id/thurs" />
+
+
+            <TextView
+                android:id="@+id/fri"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Friday"
+                android:textSize="12sp"
+                android:paddingLeft="5dp"
+                android:background="#f1f1f1"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"/>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Saturday"
+                android:gravity="center"
+                android:background="#f1f1f1"
+                android:paddingLeft="5dp"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:id="@+id/sat" />
+
+
+            <TextView
+                android:id="@+id/all_week"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="All week"
+                android:textSize="12sp"
+                android:paddingLeft="5dp"
+                android:background="#f1f1f1"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"/>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="1"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Variable"
+                android:gravity="center"
+                android:background="#f1f1f1"
+                android:paddingLeft="5dp"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:id="@+id/variable" />
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

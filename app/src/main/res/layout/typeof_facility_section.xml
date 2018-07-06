@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/managedby_section">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:weightSum="7"
+        android:padding="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Type of Facility"
+            android:gravity="left|center_vertical"
+            android:textColor="#ffffff"
+            android:paddingLeft="5dp"
+            android:background="#696969"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/hospital"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Hospital"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:paddingLeft="5dp"
+                android:background="#e9e9e9"
+                android:layout_weight="1"/>
+
+
+            <TextView
+                android:id="@+id/clinic"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Clinic"
+                android:textSize="12sp"
+                android:paddingLeft="5dp"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:background="#e9e9e9"
+                android:layout_weight="1"/>
+
+
+            <TextView
+                android:id="@+id/diagnostic_center"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Diagnostic Center"
+                android:textSize="12sp"
+                android:paddingLeft="5dp"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:background="#e9e9e9"
+                android:layout_weight="1"/>
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/dic"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="DIC"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:paddingLeft="5dp"
+                android:background="#e9e9e9"
+                android:layout_weight="1"/>
+
+
+            <TextView
+                android:id="@+id/blood_bank"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Blood Bank"
+                android:textSize="12sp"
+                android:paddingLeft="5dp"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:background="#e9e9e9"
+                android:layout_weight="1"/>
+
+
+            <TextView
+                android:id="@+id/delivery_hut"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Delivery Hut"
+                android:textSize="12sp"
+                android:paddingLeft="5dp"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:background="#e9e9e9"
+                android:layout_weight="1"/>
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/epi"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="EPI"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:paddingLeft="5dp"
+                android:background="#e9e9e9"
+                android:layout_weight="1"/>
+
+
+            <TextView
+                android:id="@+id/pharmacy"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Pharmacy"
+                android:textSize="12sp"
+                android:paddingLeft="5dp"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:background="#e9e9e9"
+                android:layout_weight="1"/>
+
+
+            <TextView
+                android:id="@+id/doc_chamber"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Doctor's Chamber"
+                android:textSize="12sp"
+                android:paddingLeft="5dp"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:background="#e9e9e9"
+                android:layout_weight="1"/>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/ll_non_profit"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="1"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/pharmacy_doc_chamber"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Pharmacy attached with Doctor's Chamber"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:background="#e9e9e9"
+                android:textSize="12sp"
+                android:layout_weight="1"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/optical_shop"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Optical shop"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:background="#e9e9e9"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"/>
+
+            <TextView
+                android:id="@+id/optical_shop_doc_champer"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Optical shop attached with Doctor's Chamber"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:background="#e9e9e9"
+                android:textSize="12sp"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/traditional"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Traditional/Spiritual"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:background="#e9e9e9"
+                android:textSize="12sp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/other"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Other"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:background="#e9e9e9"
+                android:textSize="12sp"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

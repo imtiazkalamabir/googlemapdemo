@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_facility"
+        android:title="Facility Info"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_specialists"
+        android:title="Specialists"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_list_services"
+        android:title="List of Services"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_cost_services"
+        android:title="Cost of Services"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_provision_poor"
+        android:title="Provision for Poor"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_note"
+        android:title="Note"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_appointment"
+        android:title="Ask for Appointment"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:paddingBottom="5dp"
+        android:text="Blah"
+        android:textStyle="bold"
+        android:textColor="@color/primary_text"
+        android:textSize="16sp"
+        android:drawablePadding="20dp"/>
+
+    <TextView
+        android:id="@+id/txt_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="20dp"
+        android:layout_below="@+id/txt_country"
+        android:text="This is dummy and gummy"
+        android:paddingLeft="60dp"
+        android:layout_marginBottom="10dp"
+        />
+
+
+</RelativeLayout>
+
+

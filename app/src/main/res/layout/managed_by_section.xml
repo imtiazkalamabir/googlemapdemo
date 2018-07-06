@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/managedby_section">
+
+    <LinearLayout
+        android:id="@+id/ll_manage"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:weightSum="5"
+        android:padding="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Managed By"
+            android:gravity="left|center_vertical"
+            android:textColor="#ffffff"
+            android:paddingLeft="5dp"
+            android:background="#696969"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:weightSum="3"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tv_public"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Public"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:paddingLeft="5dp"
+                android:background="#e9e9e9"
+                android:layout_weight="1"/>
+
+
+            <TextView
+                android:id="@+id/tv_private"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Private"
+                android:textSize="12sp"
+                android:paddingLeft="5dp"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:background="#e9e9e9"
+                android:layout_weight="1"/>
+
+
+            <TextView
+                android:id="@+id/tv_ppp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="PPP"
+                android:textSize="12sp"
+                android:paddingLeft="5dp"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:background="#e9e9e9"
+                android:layout_weight="1"/>
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_public"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/public_only"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Public Only"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:background="#f1f1f1"
+                android:textSize="12sp"
+                android:layout_weight="1"/>
+
+
+
+            <TextView
+                android:id="@+id/public_auto"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Public Autonomous"
+                android:textSize="12sp"
+                android:paddingLeft="5dp"
+                android:gravity="center"
+                android:background="#f1f1f1"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"/>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_private"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/for_profit"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="For Profit"
+                android:gravity="center"
+                android:background="#ededed"
+                android:paddingLeft="5dp"
+                android:textSize="12sp"
+                android:layout_weight="1"/>
+
+
+
+            <TextView
+                android:id="@+id/non_profit"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Non Profit"
+                android:textSize="12sp"
+                android:paddingLeft="5dp"
+                android:background="#ededed"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"/>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_non_profit"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ngo"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="NGO"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:background="#f6f6f6"
+                android:textSize="12sp"
+                android:layout_weight="1"/>
+
+
+
+            <TextView
+                android:id="@+id/other_org"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Other Organisation"
+                android:textSize="12sp"
+                android:paddingLeft="5dp"
+                android:gravity="center"
+                android:background="#f6f6f6"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

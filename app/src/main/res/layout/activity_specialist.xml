@@ -1,0 +1,1333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_specialist"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.debzi.googlemapdemo.SpecialistActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff">
+
+            <TextView
+                android:id="@+id/nap"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="Not applicable"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:background="#fafafa"/>
+
+            <LinearLayout
+                android:id="@+id/l1"
+                android:layout_below="@+id/nap"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Anesthetist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#Anesthetist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l2"
+                android:layout_below="@+id/l1"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Cardiologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#Cardiologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l3"
+                android:layout_below="@+id/l2"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="2dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Cardioloracic Surgery/Chest Surgery"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#Cardioloracic Surgery/Chest Surgery"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l4"
+                android:layout_below="@+id/l3"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Clinical Psycologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#Clinical Psycologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l5"
+                android:layout_below="@+id/l4"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="2dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Dental Surgeon/Maxillofacial"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#Dental Surgeon/Maxiofacial"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l6"
+                android:layout_below="@+id/l5"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Dermatologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#Dermatologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l7"
+                android:layout_below="@+id/l6"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Diabetologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#Diabetologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l8"
+                android:layout_below="@+id/l7"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Emryologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#Emryologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l9"
+                android:layout_below="@+id/l8"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Endocrinologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#Endocrinologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l10"
+                android:layout_below="@+id/l9"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Gastroenterologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#Gastroenterologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l11"
+                android:layout_below="@+id/l10"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="General Surgeon"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#General Surgeon"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l12"
+                android:layout_below="@+id/l11"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="3dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Gynecologist &amp; Obstetrician"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#Gynecologist &amp; Obstetrician"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l13"
+                android:layout_below="@+id/l12"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Hematologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#Hematologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l14"
+                android:layout_below="@+id/l13"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Hepatologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#Hepatologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l15"
+                android:layout_below="@+id/l14"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Medicine"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#Medicine"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l16"
+                android:layout_below="@+id/l15"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Neonatologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#Neonatologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l17"
+                android:layout_below="@+id/l16"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Nephrologists"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#Nephrologists"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l18"
+                android:layout_below="@+id/l17"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Neurologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#Neurologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l19"
+                android:layout_below="@+id/l18"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Neuron Surgeon"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#Neuron Surgeon"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l20"
+                android:layout_below="@+id/l19"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Nutritionist/Dietician"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#Nutritionist/Dietician"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l21"
+                android:layout_below="@+id/l20"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Oncologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#Oncologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l22"
+                android:layout_below="@+id/l21"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Ophthalmologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#Ophthalmologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l23"
+                android:layout_below="@+id/l22"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Orthopedist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#Orthopedist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l24"
+                android:layout_below="@+id/l23"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Otolaryngologist(ENT)"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#Otolaryngologist(ENT)"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l25"
+                android:layout_below="@+id/l24"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Pathologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#Pathologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l26"
+                android:layout_below="@+id/l25"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Pediatric Surgeon"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#Pediatric Surgeon"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l27"
+                android:layout_below="@+id/l26"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Pediatric Cardiologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#Pediatric Cardiologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l28"
+                android:layout_below="@+id/l27"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Pediatric Psychologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#Pediatric Psychologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l29"
+                android:layout_below="@+id/l28"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Pediatrician"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#Pediatrician"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l30"
+                android:layout_below="@+id/l29"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Physiotherapist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#Physiotherapist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l31"
+                android:layout_below="@+id/l30"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Plastic Surgeon"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#Plastic Surgeon"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l32"
+                android:layout_below="@+id/l31"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Psychiatrist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#Psychiatrist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l33"
+                android:layout_below="@+id/l32"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Psychologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#Psychologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l34"
+                android:layout_below="@+id/l33"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Pulmonologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#Pulmonologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l35"
+                android:layout_below="@+id/l34"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Radiologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#Radiologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l36"
+                android:layout_below="@+id/l35"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Rheumatologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#Rheumatologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l37"
+                android:layout_below="@+id/l36"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Sonologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#Sonologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l38"
+                android:layout_below="@+id/l37"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Urologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="#Urologist"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l39"
+                android:layout_below="@+id/l38"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:weightSum="2"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Specify:"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#f1f1f1"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Others (specify)"
+                    android:textSize="15dp"
+                    android:gravity="left|center_vertical"
+                    android:paddingLeft="5dp"
+                    android:background="#fafafa"/>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+    </ScrollView>
+
+
+
+
+</RelativeLayout>
+
